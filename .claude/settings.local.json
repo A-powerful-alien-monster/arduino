@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find \"c:\\\\Users\\\\11601\\\\Desktop\" -type d -name \"*红色电池板*\" 2>/dev/null | head -5)",
+      "Read(//c/Users/11601/Desktop/**)",
+      "Bash(command -v platformio)",
+      "Bash(command -v pio)",
+      "Bash(~/.platformio/penv/Scripts/pio.exe run *)"
+    ]
+  }
+}
